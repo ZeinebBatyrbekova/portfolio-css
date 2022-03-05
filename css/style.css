@@ -150,3 +150,24 @@ h3 {
   background-color: var(--accent);
   border-radius: 8px;
 }
+.portfolio {
+  color: var(--pure-white);
+  background-color: var(--accent);
+}
+
+.education {
+  color: var(--pure-white);
+  background-color: var(--accent);
+}
+.table-education {
+  color: var(--pure-white);
+  font-size: 14px;
+  text-align: left;
+}
+th {
+  padding: 5px 5px;
+  border-bottom: 2px solid var(--pure-white);
+}
+td {
+  padding: 5px 5px;
+}
