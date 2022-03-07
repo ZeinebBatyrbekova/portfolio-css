@@ -154,7 +154,29 @@ h3 {
   color: var(--pure-white);
   background-color: var(--accent);
 }
-
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 5px;
+  color: var(--pure-white);
+  background-color: var(--accent);
+}
+.box1,
+.box2 {
+  display: block;
+}
+.box1 img,
+.box2 img {
+  width: 200px;
+  height: 135px;
+}
+a :-webkit-any-link {
+  color: gray;
+  cursor: pointer;
+}
+figcaption {
+  color: var(--pure-white);
+}
 .education {
   color: var(--pure-white);
   background-color: var(--accent);
